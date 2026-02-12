@@ -9,6 +9,7 @@ export async function getUserName(server: string, userId: string): Promise<strin
 		method: 'POST',
 		headers: {
 			'content-type': 'application/json;charset=UTF-8',
+			'User-Agent': 'MisskeyWebhookWorker/1.0',
 		},
 	};
 
